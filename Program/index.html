@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prediksi Risiko Diabetes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Prediksi Risiko Diabetes</h1>
+    
+    <form id="predictionForm">
+      <label for="age">Umur:</label>
+      <input type="number" id="age" name="age" required>
+
+      <label for="bmi">BMI:</label>
+      <input type="number" step="any" id="bmi" name="bmi" required>
+
+      <label for="glucose">Glukosa:</label>
+      <input type="number" id="glucose" name="glucose" required>
+
+      <button type="submit">Prediksi</button>
+    </form>
+
+    <div class="result">
+      <p id="resultText">Hasil: <strong>Belum diproses</strong></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
