@@ -19,9 +19,9 @@ st.markdown("""
 # Sidebar Info
 with st.sidebar:
     st.markdown("**📅 Tanggal:**")
-    st.write(datetime.today().strftime("%d %B %Y"))
+    st.write(datetime.today().strftime("25 07 2025"))
     st.markdown("**👨‍⚕️ Dibuat oleh:**")
-    st.write("Mahasiswa Proyek Data Mining")
+    st.write("Kevin Rizki Irawan")
 
 # Form input data
 st.subheader("📋 Masukkan Data Pemeriksaan")
