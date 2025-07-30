@@ -39,16 +39,6 @@ with st.sidebar:
     st.markdown("**👨‍⚕️ Dibuat oleh:**")
     st.write("Kevin Rizki Irawan")
 
-st.markdown("""
-    <div style='text-align: center;'>
-        <h2 style='color: #00b894;'>🩺 Sistem Prediksi Risiko Diabetes</h2>
-        <p style='color: grey;'>RS Digital Sehat • Ujian Akhir Semester</p>
-    </div>
-    <hr style='border: 1px solid #e0e0e0;' />
-""", unsafe_allow_html=True)
-
-st.markdown("<div class='main'>", unsafe_allow_html=True)
-
 st.subheader("📋 Form Pemeriksaan Pasien")
 umur = st.number_input("Umur (tahun)", min_value=1, max_value=120, value=30)
 bmi = st.number_input("BMI (kg/m²)", min_value=10.0, max_value=60.0, value=22.5, format="%.2f")
