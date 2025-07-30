@@ -46,7 +46,6 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.markdown("<div class='main'>", unsafe_allow_html=True)
 
 st.subheader("📋 Form Pemeriksaan Pasien")
 umur = st.number_input("Umur (tahun)", min_value=1, max_value=120, value=30)
